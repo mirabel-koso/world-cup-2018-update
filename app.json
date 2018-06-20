@@ -55,7 +55,7 @@
         },
         "SLACK_BOT": {
             "description": "The name of the bot (this should match slack webhook config) that will make the post",
-            "value": "Worldcup",
+            "value": "worldcupbot",
             "required": false
         },
         "LOG_LEVEL": {
