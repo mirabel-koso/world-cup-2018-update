@@ -17,11 +17,11 @@
     "env": {
         "SLACK_WEBHOOK": {
             "description": "The slack webhook url, the default will not work, you need to get this from slack when creating the webhook",
-            "value": "https://hooks.slack.com/services/***"
+            "value": "https://hooks.slack.com/services/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"
         },
         "FOOTBALL_DATA_API_TOKEN": {
             "description": "The Api token used to get the match data, the default will not work, you need to get this from the Api page",
-            "value": "***"
+            "value": "d9308f4024dd42a3b2ed86f4c225a755"
         },
         "HIGHLIGHTED_TEAM": {
             "description": "A team to highligh (bold) in the posted message, it should match the team name that comes from the Api",
@@ -50,7 +50,7 @@
         },
         "SLACK_CHANNEL": {
             "description": "The name of the slack channel (this should match slack webhook config) that the bot will post to",
-            "value": "#worldcup",
+            "value": "#test-wordcupbot",
             "required": false
         },
         "SLACK_BOT": {
