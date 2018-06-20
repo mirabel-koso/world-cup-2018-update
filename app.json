@@ -17,7 +17,7 @@
     "env": {
         "SLACK_WEBHOOK": {
             "description": "The slack webhook url, the default will not work, you need to get this from slack when creating the webhook",
-            "value": "https://hooks.slack.com/services/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"
+            "value": "https://hooks.slack.com/services/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"
         },
         "FOOTBALL_DATA_API_TOKEN": {
             "description": "The Api token used to get the match data, the default will not work, you need to get this from the Api page",
@@ -50,12 +50,12 @@
         },
         "SLACK_CHANNEL": {
             "description": "The name of the slack channel (this should match slack webhook config) that the bot will post to",
-            "value": "#test-wordcupbot",
+            "value": "#world-cup-updates",
             "required": false
         },
         "SLACK_BOT": {
             "description": "The name of the bot (this should match slack webhook config) that will make the post",
-            "value": "worldcupbot",
+            "value": "world-cup-updates",
             "required": false
         },
         "LOG_LEVEL": {
