@@ -35,7 +35,7 @@
         },
         "CRON_SCHEDULE": {
             "description": " The cron expression to schedule each Api check. The default is every 15 minutes.",
-            "value": "*/15 * * * *",
+            "value": "*/5 * * * *",
             "required": false
         },
         "LANGUAGE": {
@@ -50,7 +50,7 @@
         },
         "SLACK_CHANNEL": {
             "description": "The name of the slack channel (this should match slack webhook config) that the bot will post to",
-            "value": "#world-cup-updates",
+            "value": "#world-cup-2018",
             "required": false
         },
         "SLACK_BOT": {
