@@ -35,7 +35,7 @@
         },
         "CRON_SCHEDULE": {
             "description": " The cron expression to schedule each Api check. The default is every 15 minutes.",
-            "value": "*/5 * * * *",
+            "value": "*/15 * * * *",
             "required": false
         },
         "LANGUAGE": {
